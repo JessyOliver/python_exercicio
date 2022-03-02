@@ -11,15 +11,12 @@ area = altura * base
 cont = 0
 
 print("Area: ", area)
-
 if area > 0:
-
     while area != 0:
-
         area -= 2
         cont += 1
 
-    print("\n Seram necessarios", cont, "litros de tinta, para pintar a parede!")
+    print("\n Seram necessarios {:.2f} litros de tinta, para pintar a parede!".format(cont))
 
 else:
 

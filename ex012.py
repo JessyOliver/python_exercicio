@@ -5,11 +5,7 @@ nameProduct = str(input("Digite o nome do produto:"))
 
 price = float(input("Digite o preço do produto: "))
 
-pay = float(0)
-
-pay = price - ((5 / 100) * price)
-
 print("\n Produto:", nameProduct,
       "\n Valor produto: R$ {:.2f}".format(price),
-      "\n Valor com desconto: R$ {:.2f}".format(pay))
+      "\n Valor com desconto: R$ {:.2f}".format(price - ((5 / 100) * price)))
 

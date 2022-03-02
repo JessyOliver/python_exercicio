@@ -3,6 +3,6 @@
 
 numero = int(input("Digite um valor: \n"))
 
-print('O bobro de {} ='.format(numero), numero * 2)
-print('O triplo de {} ='.format(numero), pow(numero, 3))
-print('A raiz quadrada de {} ='.format(numero), pow(numero, 2))
+print('\n O bobro de {} vale: {}'.format(numero, (numero * 2)),
+      '\n O triplo de {} vale: {}'.format(numero, (numero * 3)),
+      '\n A raiz quadrada de {} vale: {:.2f}'.format(numero, pow(numero, 1/2)))
